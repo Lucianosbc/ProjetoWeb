@@ -15,9 +15,29 @@
 
         body {
              background-image: url('imagens/yoshi.png');
+             
+             /* repeat-x, repeat-y, no-reapeat, repeat*/
              background-repeat: no-repeat;
-             background-attachment: fixed /*ou scroll*/;
-             background-position: left center;
+
+             /*scrool. fixed*/
+             background-attachment:fixed;
+
+            /*Primeiro valor: left, center, right
+            Segundo valor: top, center, bottom*/
+             background-position: top center;
+        }
+
+        .fundo-div {
+            color: white;
+            background: rgb(45, 45, 207);
+            font-size: 20;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif
+            
+        }
+
+        .fundo{
+            background: gray url('imagens/yoshi.png') repeat-x fixed top;
         }
         
 
@@ -26,24 +46,37 @@
 
 </head>
 
-<body>
+<body class="fundo">
 
-    <h1>Conteúdo de fundo</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae quis ullam aspernatur eos laboriosam, ipsam assumenda iusto labore velit illum atque eveniet voluptate sed magni ratione mollitia, expedita ducimus?</p>
+    <div>
+        <h1 class="fundo-div">Conteúdo de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repudiandae quis ullam aspernatur eos laboriosam, ipsam assumenda iusto labore velit illum atque eveniet voluptate sed magni ratione mollitia, expedita ducimus?</p>
 
 
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
 
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum optio odit id, unde eius facilis itaque fugiat corporis dolor. Officiis corporis aperiam suscipit maiores enim non veritatis, minus quasi labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum optio odit id, unde eius facilis itaque fugiat corporis dolor. Officiis corporis aperiam suscipit maiores enim non veritatis, minus quasi labore.</p>
+    </div>
 
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+
+    <div class="fundo-div">
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, fuga repellendus cumque culpa saepe aliquid, modi dolores recusandae laboriosam et fugiat alias molestiae architecto quibusdam. Neque minus est veritatis deserunt.</p>
+
+
+
+
+
+    </div>
+    
 </body>
 
 </html>
