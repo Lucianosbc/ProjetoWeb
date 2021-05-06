@@ -1,0 +1,11 @@
+.menu{
+    color: grey;
+    background: rgba(119, 117, 97, 0.425);
+    font: weight 900;
+    font-family: "Lucida Console", Courier, monospace;
+        
+}
+
+.background{
+    background: gray url('imagens/fundo.png');
+}
