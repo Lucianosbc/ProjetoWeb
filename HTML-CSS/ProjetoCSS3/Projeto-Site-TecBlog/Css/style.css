@@ -7,8 +7,9 @@
 
 body {
     font-size: 1em;
-    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
     background: #e6e6e6;
+    
 }
 
 /* 
@@ -20,7 +21,7 @@ body {
     text-align: center;
 }
 
-#area-logo, #area-menu {
+#area-logo, #area-menu d{
     padding: 10px;
 }
 
@@ -36,10 +37,26 @@ body {
 
 #area-postagens {
     width: 660px;
+    float: left;
+}
+
+.postagens{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+
 }
 
 #area-lateral {
     width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
 }
 
 
