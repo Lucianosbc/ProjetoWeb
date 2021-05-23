@@ -1,44 +1,46 @@
 /*/***************************
- Seletor universal */
-/* *{
+ Seletor universal 
+  *{
     border: 1px solid red;
 } */
 
+
 /*/***************************
- Seletor de texto */
-/* h1{
+ Seletor de texto 
+  h1{
     color: blue;
 } */
 
+
 /***************************
- Seletor de classe */
-/* .verde {
+ Seletor de classe 
+  .verde {
     color: green;
 }
 
-p.verde{
+  p.verde{
     color: green;
 } */
 
 
 /***************************
- Seletor de ID */
-/*  #cabecalho{
+ Seletor de ID 
+   #cabecalho{
      border: 1px solid blue;
  } */
 
 
  /***************************
- Seletor de filho*/
-/*  li>a {
+ Seletor de filho
+  li>a {
      color: red;
      text-decoration: none;
  } */
 
 
  /***************************
- Seletor de descendente*/
-/* div a{
+ Seletor de descendente
+  div a{
      color: green;
  }
  */
@@ -46,16 +48,16 @@ p.verde{
 
  
  /***************************
- Seletor de irmão adjacente*/
-/*  h1+p{
+ Seletor de irmão adjacente
+   h1+p{
      color: red;
  }
  */
 
 
  /***************************
- Seletor de irmão geral*/
- /* h1~p{
+ Seletor de irmão geral*
+  h1~p{
      color: pink;
  }
  */
