@@ -1,6 +1,30 @@
-/********************************
-Herença e especificidade */
+/*******************************************************************
+Herença */
 
-body {
+/* body {
     color: red;
+    foni-border: 1px solid blue; 
+} */
+
+/*******************************************************************
+Especificidade - Seletores iguais, exceção important */
+/* p {
+    color: blue !important;
+}
+
+p {
+    color: red;
+} */
+
+
+/*********************************************************************
+Se um seletor for mais específico que o outro a regra mais específica será aplicada(terá precedência sobre regras masi gerais)
+  */
+
+*{
+    color: red;
+}
+
+h2{
+    color: blue;
 }
