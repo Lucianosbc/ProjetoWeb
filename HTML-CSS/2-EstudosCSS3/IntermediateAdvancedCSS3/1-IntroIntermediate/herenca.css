@@ -18,13 +18,21 @@ p {
 
 
 /*********************************************************************
-Se um seletor for mais específico que o outro a regra mais específica será aplicada(terá precedência sobre regras masi gerais)
+Se um seletor for mais específico que o outro a regra mais específica será aplicada(terá precedência sobre regras mais gerais)
   */
 
 *{
     color: red;
 }
 
-h2{
+h2{/*3*/
     color: blue;
+}
+
+h2.verde{/*2*/
+    color: green;
+}
+
+h2#amarelo {/*1*/
+    color: yellow;
 }
