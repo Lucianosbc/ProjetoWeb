@@ -1,14 +1,29 @@
 /*******************************************************************
 Barra de navegação vertical */
-ul {
+/* ul {
     
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li{
-    padding: 20px;
-    border : 1px solid red;
-    background url(../images/seta.png) no-repeat;
+li {
+    padding: 5px 20px;
+    background: url(./imagens/seta.png) no-repeat left center;
+} */
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul a{
+    border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url(./imagens/menu.png) no-repeat left bottom;
+    
 }
