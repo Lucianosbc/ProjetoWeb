@@ -10,8 +10,8 @@ Barra de navegação vertical */
 li {
     padding: 5px 20px;
     background: url(./imagens/seta.png) no-repeat left center;
-} */
-
+}
+ */
 
 ul{
     margin: 0;
@@ -20,10 +20,19 @@ ul{
 }
 
 ul a{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 200px;
     height: 40px;
     display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
     background: url(./imagens/menu.png) no-repeat left bottom;
     
+}
+
+a:hover{
+    background-position: right bottom;
+    color: #fff;
 }
