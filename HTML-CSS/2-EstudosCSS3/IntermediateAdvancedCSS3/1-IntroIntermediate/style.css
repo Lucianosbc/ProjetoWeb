@@ -1,19 +1,4 @@
-/*******************************************************************
-Barra de navegação vertical */
-/* ul {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    padding: 5px 20px;
-    background: url(./imagens/seta.png) no-repeat left center;
-}
- */
-
-ul{
+ ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,8 +17,22 @@ ul a{
     
 }
 
+/* a:hover , .selecionado a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+} */
+
 a:hover{
     background-position: right bottom;
     background-color: #f99200;
     color: #fff;
 }
+
+#home .home a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+
+}
+
