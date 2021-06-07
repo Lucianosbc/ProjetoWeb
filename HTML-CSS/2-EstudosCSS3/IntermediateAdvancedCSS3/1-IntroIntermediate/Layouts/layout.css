@@ -6,8 +6,6 @@ body {
     background: #f2f2f2;
 }
 
-
-
 #container {
     width: 720px;
     margin: 0 auto;
@@ -26,6 +24,25 @@ body {
     float: right;
 }
 
+#conteudo-principal {
+    width: 180px;
+    float: left;
+}
+
+#conteudo-secundario {
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #navegacao {
     width: 180px;
     float: left;
@@ -40,14 +57,14 @@ body {
     list-style: none;
 }
 
-#navegacao ul a{
+#navegacao li a{
     width: 200px;
     height: 40px;
     display: block;
-    color: #000;
+    color: rgb(112, 97, 179);
     text-decoration: none;
     text-indent: 40px;
-    background: orange;
+    background: rgba(0, 0, 5, 0.158);
 }
 
 #navegacao a:hover {
