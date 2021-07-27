@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-    width: 720px;
+    width: 85%;/* 720px; */
     margin: 0 auto;
     background: #fff;
 }
@@ -20,12 +20,12 @@ body {
 }
 
 #conteudo {
-    width: 520px;
+    width: 75%;/* 520px; */ /* (520*100)/700 = 74.28   (700 é a soma do conteudo e navegação)*/
     float: right;
 }
 
 #conteudo-principal {
-    width: 180px;
+    width: 75%;
     float: left;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #navegacao {
-    width: 180px;
+    width: 23%;/* 180px; */  /* (180*100)/700 = 25.71   (700 é a soma do conteudo e navegação)*/
     float: left;
     padding-top: 20px;
     /* background: #d1d1d1; */
