@@ -7,9 +7,11 @@ body {
 }
 
 #container {
-    width: 85%;/* 720px; */
+    width: 100%;/* 720px; */
     margin: 0 auto;
     background: #fff;
+    min-width: 720px;
+    /* max-width: 960px; */
 }
 
 #marca {
@@ -25,12 +27,12 @@ body {
 }
 
 #conteudo-principal {
-    width: 75%;
+    width: 64%;
     float: left;
 }
 
 #conteudo-secundario {
-    width: 180px;
+    width: 34%;
     float: right;
     background: #d1d1d1;
 }
